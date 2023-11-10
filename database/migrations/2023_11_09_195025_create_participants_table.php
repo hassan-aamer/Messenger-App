@@ -16,6 +16,7 @@ return new class extends Migration
             $table->foreignId('user_id')->constrained('users')->cascadeOnDelete();
             $table->enum('role',['admen','member'])->default('member');
             $table->timestamp('joined_at');
+            $table->primary(['conversation_id','user_id']);
         });
     }
 

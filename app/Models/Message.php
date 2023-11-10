@@ -14,4 +14,8 @@ class Message extends Model
     {
         return $this->belongsTo(Conversation::class)->withDefault(['name'=>__('User')]);
     }
+    public function recipients()
+    {
+        return $this->belongsToMany(User::class,'recipients')->withPivot(['read_at','deleted_at']);
+    }
 }
