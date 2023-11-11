@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Auth;
 use TijsVerkoyen\CssToInlineStyles\Css\Rule\Rule;
 
@@ -54,7 +55,13 @@ class MessagesController extends Controller
 
         $message = $conversations->messages()->create([
             'user_id' => $user->id,
+            'body'=>$request->post('message'),
         ]);
+        DB::statement('
+            INSERT INTO recipients (user_id,message_id) 
+            SELECT user_id ? FROM participants 
+            WHERE conversation_id = ? 
+        ');
     }
 
     /**
