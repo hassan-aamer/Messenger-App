@@ -14,7 +14,7 @@ class MessagesController extends Controller
      */
     public function index($id)
     {
-        $user=Auth::user();
+        $user = Auth::user();
         $conversations = $user->conversations()->findOrFail($id);
         return $conversations->messages()->paginate();
     }
@@ -22,10 +22,10 @@ class MessagesController extends Controller
     /**
      * Store a newly created resource in storage.
      */
-    public function store(Request $request,$id)
+    public function store(Request $request, $id)
     {
         $request->validate([
-            'message'=>['required','string'],
+            'message' => ['required', 'string'],
             'conversation_id' => [
                 Rule::requiredIf(function () use ($request) {
                     return !$request->input('user_id');
@@ -33,26 +33,28 @@ class MessagesController extends Controller
                 'integer',
                 'exists:conversations,id',
             ],
-            
 
-            'user_id'=>[
-                Rule::requiredIf(function() use($request){
+
+            'user_id' => [
+                Rule::requiredIf(function () use ($request) {
                     return !$request->input('conversation_id');
                 }),
                 'integer',
-                'exists:users,id'],
+                'exists:users,id'
+            ],
         ]);
-        
-        $user=Auth::user();
-        $conversations_id=$request->post('conversations_id');
-        $user_id=$request->post('user_id');
 
-        if($conversations_id)
-        {
+        $user = Auth::user();
+        $conversations_id = $request->post('conversations_id');
+        $user_id = $request->post('user_id');
+
+        if ($conversations_id) {
             $conversations = $user->conversations()->findOrFail($conversations_id);
         }
 
-        $message=
+        $message = $conversations->messages()->create([
+            'user_id' => $user->id,
+        ]);
     }
 
     /**
