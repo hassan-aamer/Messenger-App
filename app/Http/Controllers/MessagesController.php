@@ -84,6 +84,10 @@ class MessagesController extends Controller
             SELECT participants.user_id, ? FROM participants 
             WHERE participants.conversation_id = ?
         ', [$message->id, $conversation->id]);
+
+        $conversation->update([
+            'last_message_id'=>$message->id,
+        ]);
         
 
             DB::commit();
