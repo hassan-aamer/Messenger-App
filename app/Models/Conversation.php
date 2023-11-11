@@ -15,7 +15,7 @@ class Conversation extends Model
     {
         return $this->belongsToMany(User::class,'participants')->withPivot(['joined_at','role']);
     }
-    public function message()
+    public function messages()
     {
         return $this->hasMany(Message::class,'conversation_id','id')->latest();
     }

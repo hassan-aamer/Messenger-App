@@ -32,22 +32,17 @@ class MessagesController extends Controller
         $request->validate([
             'message' => ['required', 'string'],
             'conversation_id' => [
-                Rule::requiredIf(function () use ($request) {
-                    return !$request->input('user_id');
-                }),
+                'required_if:user_id,null',
                 'integer',
                 'exists:conversations,id',
             ],
-
-
             'user_id' => [
-                Rule::requiredIf(function () use ($request) {
-                    return !$request->input('conversation_id');
-                }),
+                'required_if:conversation_id,null',
                 'integer',
-                'exists:users,id'
+                'exists:users,id',
             ],
         ]);
+        
 
         $user = User::find(1); //Auth::user();
         $conversation_id = $request->post('conversation_id');
@@ -73,8 +68,8 @@ class MessagesController extends Controller
                         'type' => 'peer',
                     ]);
                     $conversation->participants()->attach([
-                        $user->id =>['joined_at'=>now()],
-                        $user_id => ['joined_at'=>now()],
+                        $user->id => ['joined_at' => now()],
+                        $user_id => ['joined_at' => now()],
                     ]);
                 }
             }
@@ -85,10 +80,11 @@ class MessagesController extends Controller
             ]);
 
             DB::statement('
-                INSERT INTO recipients (user_id,message_id) 
-                SELECT user_id ? FROM participants 
-                WHERE conversation_id = ? 
-            ', [$message->id, $conversation->id]);
+            INSERT INTO recipients (user_id, message_id) 
+            SELECT participants.user_id, ? FROM participants 
+            WHERE participants.conversation_id = ?
+        ', [$message->id, $conversation->id]);
+        
 
             DB::commit();
         } catch (Throwable $e) {
