@@ -9,7 +9,7 @@
     <title>Messenger App</title>
 
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/img/favicon/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="{{ asset('assets/img/favicon/favicon.ico') }}" type="image/x-icon">
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -164,10 +164,10 @@
                         <a href="#" class="nav-link p-0 mt-lg-2" data-bs-toggle="modal"
                             data-bs-target="#modal-profile">
                             <div class="avatar avatar-online mx-auto d-none d-xl-block">
-                                <img class="avatar-img" src="assets/img/avatars/1.jpg" alt="">
+                                <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="">
                             </div>
                             <div class="avatar avatar-online avatar-xs d-xl-none">
-                                <img class="avatar-img" src="assets/img/avatars/1.jpg" alt="">
+                                <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}" alt="">
                             </div>
                         </a>
                     </li>
@@ -381,7 +381,7 @@
 
                                         <!-- Members -->
                                         <div class="tab-pane fade" id="create-chat-members" role="tabpanel">
-                                            
+
                                             <nav>
                                                 <div class="my-5">
                                                     <small class="text-uppercase text-muted">B</small>
@@ -394,10 +394,12 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar ">
-                                                                    
-                                                                        <img class="avatar-img" src="assets/img/avatars/6.jpg" alt="">
-                                                                    
-                                                                    
+
+                                                                    <img class="avatar-img"
+                                                                        src="{{ asset('assets/img/avatars/6.jpg') }}"
+                                                                        alt="">
+
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -406,8 +408,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-1">
-                                                                    <label class="form-check-label" for="id-member-1"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-1">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-1"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -427,10 +431,12 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar ">
-                                                                    
-                                                                        <img class="avatar-img" src="assets/img/avatars/5.jpg" alt="">
-                                                                    
-                                                                    
+
+                                                                    <img class="avatar-img"
+                                                                        src="{{ asset('assets/img/avatars/5.jpg') }}"
+                                                                        alt="">
+
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -439,8 +445,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-2">
-                                                                    <label class="form-check-label" for="id-member-2"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-2">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-2"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -454,10 +462,10 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar avatar-online">
-                                                                    
-                                                                    
-                                                                        <span class="avatar-text">D</span>
-                                                                    
+
+
+                                                                    <span class="avatar-text">D</span>
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -466,8 +474,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-3">
-                                                                    <label class="form-check-label" for="id-member-3"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-3">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-3"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -487,10 +497,12 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar avatar-online">
-                                                                    
-                                                                        <img class="avatar-img" src="assets/img/avatars/8.jpg" alt="">
-                                                                    
-                                                                    
+
+                                                                    <img class="avatar-img"
+                                                                        src="{{ asset('assets/img/avatars/8.jpg') }}"
+                                                                        alt="">
+
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -499,8 +511,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-4">
-                                                                    <label class="form-check-label" for="id-member-4"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-4">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-4"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -520,10 +534,10 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar ">
-                                                                    
-                                                                    
-                                                                        <span class="avatar-text">M</span>
-                                                                    
+
+
+                                                                    <span class="avatar-text">M</span>
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -532,8 +546,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-6">
-                                                                    <label class="form-check-label" for="id-member-6"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-6">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-6"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -547,10 +563,12 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar ">
-                                                                    
-                                                                        <img class="avatar-img" src="assets/img/avatars/11.jpg" alt="">
-                                                                    
-                                                                    
+
+                                                                    <img class="avatar-img"
+                                                                        src="{{ asset('assets/img/avatars/11.jpg') }}"
+                                                                        alt="">
+
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -559,8 +577,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-5">
-                                                                    <label class="form-check-label" for="id-member-5"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-5">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-5"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -580,10 +600,10 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar avatar-online">
-                                                                    
-                                                                    
-                                                                        <span class="avatar-text">O</span>
-                                                                    
+
+
+                                                                    <span class="avatar-text">O</span>
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -592,8 +612,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-7">
-                                                                    <label class="form-check-label" for="id-member-7"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-7">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-7"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -613,10 +635,12 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar ">
-                                                                    
-                                                                        <img class="avatar-img" src="assets/img/avatars/4.jpg" alt="">
-                                                                    
-                                                                    
+
+                                                                    <img class="avatar-img"
+                                                                        src="{{ asset('assets/img/avatars/4.jpg') }}"
+                                                                        alt="">
+
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -625,8 +649,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-8">
-                                                                    <label class="form-check-label" for="id-member-8"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-8">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-8"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -640,10 +666,12 @@
                                                         <div class="row align-items-center gx-5">
                                                             <div class="col-auto">
                                                                 <div class="avatar avatar-online">
-                                                                    
-                                                                        <img class="avatar-img" src="assets/img/avatars/7.jpg" alt="">
-                                                                    
-                                                                    
+
+                                                                    <img class="avatar-img"
+                                                                        src="{{ asset('assets/img/avatars/7.jpg') }}"
+                                                                        alt="">
+
+
                                                                 </div>
                                                             </div>
                                                             <div class="col">
@@ -652,8 +680,10 @@
                                                             </div>
                                                             <div class="col-auto">
                                                                 <div class="form-check">
-                                                                    <input class="form-check-input" type="checkbox" value="" id="id-member-9">
-                                                                    <label class="form-check-label" for="id-member-9"></label>
+                                                                    <input class="form-check-input" type="checkbox"
+                                                                        value="" id="id-member-9">
+                                                                    <label class="form-check-label"
+                                                                        for="id-member-9"></label>
                                                                 </div>
                                                             </div>
                                                         </div>
@@ -662,7 +692,7 @@
                                                 </div>
                                                 <!-- Card -->
                                             </nav>
-                                            
+
                                         </div>
                                     </div>
                                     <!-- Tabs content -->
@@ -877,7 +907,7 @@
                                             </div>
                                         </form>
                                     </div>
-                                    
+
                                     <!-- Today -->
                                     <div class="card-list">
                                         <!-- Title -->
@@ -896,10 +926,22 @@
                                                     <div class="col-auto">
                                                         <!-- Avatar -->
                                                         <a href="#" class="avatar">
-                                                            <img class="avatar-img" src="assets/img/avatars/11.jpg" alt="">
+                                                            <img class="avatar-img"
+                                                                src="{{ asset('assets/img/avatars/11.jpg') }}"
+                                                                alt="">
 
-                                                            <div class="badge badge-circle bg-primary border-outline position-absolute bottom-0 end-0">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-user"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                                            <div
+                                                                class="badge badge-circle bg-primary border-outline position-absolute bottom-0 end-0">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-user">
+                                                                    <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2">
+                                                                    </path>
+                                                                    <circle cx="12" cy="7" r="4">
+                                                                    </circle>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -916,12 +958,28 @@
                                                             <div class="me-auto">Send you a friend request.</div>
 
                                                             <div class="dropdown ms-5">
-                                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                                <a class="icon text-muted" href="#"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24" height="24"
+                                                                        viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-more-horizontal">
+                                                                        <circle cx="12" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="19" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="5" cy="12" r="1">
+                                                                        </circle>
+                                                                    </svg>
                                                                 </a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Show less often</a></li>
-                                                                    <li><a class="dropdown-item" href="#">Hide</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Show
+                                                                            less often</a></li>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="#">Hide</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -932,10 +990,12 @@
                                             <div class="card-footer">
                                                 <div class="row gx-4">
                                                     <div class="col">
-                                                        <a href="#" class="btn btn-sm btn-soft-primary w-100">Hide</a>
+                                                        <a href="#"
+                                                            class="btn btn-sm btn-soft-primary w-100">Hide</a>
                                                     </div>
                                                     <div class="col">
-                                                        <a href="#" class="btn btn-sm btn-primary w-100">Confirm</a>
+                                                        <a href="#"
+                                                            class="btn btn-sm btn-primary w-100">Confirm</a>
                                                     </div>
                                                 </div>
                                             </div>
@@ -951,11 +1011,37 @@
                                                         <!-- Avatar -->
                                                         <a href="#" class="avatar">
                                                             <span class="avatar-text bg-warning">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-star"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-star">
+                                                                    <polygon
+                                                                        points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2">
+                                                                    </polygon>
+                                                                </svg>
                                                             </span>
 
-                                                            <div class="badge badge-circle bg-warning border-outline position-absolute bottom-0 end-0">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-gift"><polyline points="20 12 20 22 4 22 4 12"></polyline><rect x="2" y="7" width="20" height="5"></rect><line x1="12" y1="22" x2="12" y2="7"></line><path d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z"></path><path d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z"></path></svg>
+                                                            <div
+                                                                class="badge badge-circle bg-warning border-outline position-absolute bottom-0 end-0">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-gift">
+                                                                    <polyline points="20 12 20 22 4 22 4 12">
+                                                                    </polyline>
+                                                                    <rect x="2" y="7" width="20" height="5">
+                                                                    </rect>
+                                                                    <line x1="12" y1="22"
+                                                                        x2="12" y2="7"></line>
+                                                                    <path
+                                                                        d="M12 7H7.5a2.5 2.5 0 0 1 0-5C11 2 12 7 12 7z">
+                                                                    </path>
+                                                                    <path
+                                                                        d="M12 7h4.5a2.5 2.5 0 0 0 0-5C13 2 12 7 12 7z">
+                                                                    </path>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -972,12 +1058,28 @@
                                                             <div class="me-auto">You win 5GB free disk space.</div>
 
                                                             <div class="dropdown ms-5">
-                                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                                <a class="icon text-muted" href="#"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24" height="24"
+                                                                        viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-more-horizontal">
+                                                                        <circle cx="12" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="19" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="5" cy="12" r="1">
+                                                                        </circle>
+                                                                    </svg>
                                                                 </a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Show less often</a></li>
-                                                                    <li><a class="dropdown-item" href="#">Hide</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Show
+                                                                            less often</a></li>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="#">Hide</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1009,11 +1111,30 @@
                                                         <!-- Avatar -->
                                                         <div class="avatar">
                                                             <span class="avatar-text bg-success">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-lock"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-lock">
+                                                                    <rect x="3" y="11" width="18" height="11"
+                                                                        rx="2" ry="2"></rect>
+                                                                    <path d="M7 11V7a5 5 0 0 1 10 0v4"></path>
+                                                                </svg>
                                                             </span>
 
-                                                            <div class="badge badge-circle bg-success border-outline position-absolute bottom-0 end-0">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-refresh-ccw"><polyline points="1 4 1 10 7 10"></polyline><polyline points="23 20 23 14 17 14"></polyline><path d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15"></path></svg>
+                                                            <div
+                                                                class="badge badge-circle bg-success border-outline position-absolute bottom-0 end-0">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-refresh-ccw">
+                                                                    <polyline points="1 4 1 10 7 10"></polyline>
+                                                                    <polyline points="23 20 23 14 17 14"></polyline>
+                                                                    <path
+                                                                        d="M20.49 9A9 9 0 0 0 5.64 5.64L1 10m22 4l-4.64 4.36A9 9 0 0 1 3.51 15">
+                                                                    </path>
+                                                                </svg>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -1025,15 +1146,32 @@
                                                         </div>
 
                                                         <div class="d-flex">
-                                                            <div class="me-auto">Your password has been <br> updated successfully.</div>
+                                                            <div class="me-auto">Your password has been <br> updated
+                                                                successfully.</div>
 
                                                             <div class="dropdown ms-5">
-                                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                                <a class="icon text-muted" href="#"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24" height="24"
+                                                                        viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-more-horizontal">
+                                                                        <circle cx="12" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="19" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="5" cy="12" r="1">
+                                                                        </circle>
+                                                                    </svg>
                                                                 </a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Show less often</a></li>
-                                                                    <li><a class="dropdown-item" href="#">Hide</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Show
+                                                                            less often</a></li>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="#">Hide</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1065,10 +1203,23 @@
                                                     <div class="col-auto">
                                                         <!-- Avatar -->
                                                         <a href="#" class="avatar">
-                                                            <img class="avatar-img" src="assets/img/avatars/7.jpg" alt="">
+                                                            <img class="avatar-img"
+                                                                src="{{ asset('assets/img/avatars/7.jpg') }}"
+                                                                alt="">
 
-                                                            <div class="badge badge-circle bg-primary border-outline position-absolute bottom-0 end-0">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                                                            <div
+                                                                class="badge badge-circle bg-primary border-outline position-absolute bottom-0 end-0">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-image">
+                                                                    <rect x="3" y="3" width="18" height="18"
+                                                                        rx="2" ry="2"></rect>
+                                                                    <circle cx="8.5" cy="8.5" r="1.5">
+                                                                    </circle>
+                                                                    <polyline points="21 15 16 10 5 21"></polyline>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1085,12 +1236,28 @@
                                                             <div class="me-auto">Updated profile picture.</div>
 
                                                             <div class="dropdown ms-5">
-                                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                                <a class="icon text-muted" href="#"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24" height="24"
+                                                                        viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-more-horizontal">
+                                                                        <circle cx="12" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="19" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="5" cy="12" r="1">
+                                                                        </circle>
+                                                                    </svg>
                                                                 </a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Show less often</a></li>
-                                                                    <li><a class="dropdown-item" href="#">Hide</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Show
+                                                                            less often</a></li>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="#">Hide</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1109,10 +1276,21 @@
                                                     <div class="col-auto">
                                                         <!-- Avatar -->
                                                         <a href="#" class="avatar">
-                                                            <img class="avatar-img" src="assets/img/avatars/9.jpg" alt="">
+                                                            <img class="avatar-img"
+                                                                src="{{ asset('assets/img/avatars/9.jpg') }}"
+                                                                alt="">
 
-                                                            <div class="badge badge-circle bg-primary border-outline position-absolute bottom-0 end-0">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-message-circle"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                                                            <div
+                                                                class="badge badge-circle bg-primary border-outline position-absolute bottom-0 end-0">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-message-circle">
+                                                                    <path
+                                                                        d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z">
+                                                                    </path>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1130,12 +1308,28 @@
                                                             <div class="me-auto">Send you a private message.</div>
 
                                                             <div class="dropdown ms-5">
-                                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                                <a class="icon text-muted" href="#"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24" height="24"
+                                                                        viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                                        class="feather feather-more-horizontal">
+                                                                        <circle cx="12" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="19" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="5" cy="12" r="1">
+                                                                        </circle>
+                                                                    </svg>
                                                                 </a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Show less often</a></li>
-                                                                    <li><a class="dropdown-item" href="#">Hide</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Show
+                                                                            less often</a></li>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="#">Hide</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1153,13 +1347,34 @@
                                                 <div class="row gx-5">
                                                     <div class="col-auto">
                                                         <!-- Avatar -->
-                                                        <a href="#tab-settings" class="avatar avatar-badged" data-theme-toggle="tab">
+                                                        <a href="#tab-settings" class="avatar avatar-badged"
+                                                            data-theme-toggle="tab">
                                                             <span class="avatar-text bg-danger">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-bell">
+                                                                    <path
+                                                                        d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9">
+                                                                    </path>
+                                                                    <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                                                </svg>
                                                             </span>
 
-                                                            <div class="badge badge-circle bg-danger border-outline position-absolute bottom-0 end-0">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-power"><path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path><line x1="12" y1="2" x2="12" y2="12"></line></svg>
+                                                            <div
+                                                                class="badge badge-circle bg-danger border-outline position-absolute bottom-0 end-0">
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-power">
+                                                                    <path d="M18.36 6.64a9 9 0 1 1-12.73 0"></path>
+                                                                    <line x1="12" y1="2"
+                                                                        x2="12" y2="12"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </div>
@@ -1178,12 +1393,29 @@
                                                             <div class="me-auto">Please turn on notifications.</div>
 
                                                             <div class="dropdown ms-5">
-                                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-horizontal"><circle cx="12" cy="12" r="1"></circle><circle cx="19" cy="12" r="1"></circle><circle cx="5" cy="12" r="1"></circle></svg>
+                                                                <a class="icon text-muted" href="#"
+                                                                    role="button" data-bs-toggle="dropdown"
+                                                                    aria-expanded="false">
+                                                                    <svg xmlns="http://www.w3.org/2000/svg"
+                                                                        width="24" height="24"
+                                                                        viewBox="0 0 24 24" fill="none"
+                                                                        stroke="currentColor" stroke-width="2"
+                                                                        stroke-linecap="round"
+                                                                        stroke-linejoin="round"
+                                                                        class="feather feather-more-horizontal">
+                                                                        <circle cx="12" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="19" cy="12" r="1">
+                                                                        </circle>
+                                                                        <circle cx="5" cy="12" r="1">
+                                                                        </circle>
+                                                                    </svg>
                                                                 </a>
                                                                 <ul class="dropdown-menu">
-                                                                    <li><a class="dropdown-item" href="#">Show less often</a></li>
-                                                                    <li><a class="dropdown-item" href="#">Hide</a></li>
+                                                                    <li><a class="dropdown-item" href="#">Show
+                                                                            less often</a></li>
+                                                                    <li><a class="dropdown-item"
+                                                                            href="#">Hide</a></li>
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -1194,7 +1426,7 @@
                                         </div>
                                     </div>
                                     <!-- Card -->
-                                    
+
                                 </div>
                             </div>
                         </div>
@@ -1287,8 +1519,8 @@
                                         </div>
 
                                         <div class="card border-0">
-                                            <img src="assets/img/demos/light.jpg" class="card-img-top"
-                                                alt="...">
+                                            <img src="{{ asset('assets/img/demos/light.jpg') }}"
+                                                class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <div class="row align-items-center gx-0">
                                                     <div class="col">
@@ -1312,7 +1544,8 @@
                                         </div>
 
                                         <div class="card border-0">
-                                            <img src="assets/img/demos/dark.jpg" class="card-img-top" alt="...">
+                                            <img src="{{ asset('assets/img/demos/dark.jpg') }}"
+                                                class="card-img-top" alt="...">
                                             <div class="card-body">
                                                 <div class="row align-items-center gx-0">
                                                     <div class="col">
@@ -1482,8 +1715,8 @@
                                             <div class="row align-items-center gx-5">
                                                 <div class="col-auto">
                                                     <div class="avatar">
-                                                        <img src="assets/img/avatars/1.jpg" alt="#"
-                                                            class="avatar-img">
+                                                        <img src="{{ asset('assets/img/avatars/1.jpg') }}"
+                                                            alt="#" class="avatar-img">
 
                                                         <div
                                                             class="badge badge-circle bg-secondary border-outline position-absolute bottom-0 end-0">
@@ -1581,7 +1814,8 @@
                                                                 </div>
 
                                                                 <div class="form-floating mb-6">
-                                                                    <textarea class="form-control" placeholder="Bio" id="profile-bio" data-autosize="true" style="min-height: 120px;"></textarea>
+                                                                    <textarea class="form-control" placeholder="Bio" id="profile-bio" data-autosize="true"
+                                                                        style="min-height: 120px;"></textarea>
                                                                     <label for="profile-bio">Bio</label>
                                                                 </div>
 
@@ -1619,7 +1853,8 @@
 
                                                                 <div class="form-floating mb-6">
                                                                     <input type="text" class="form-control"
-                                                                        id="profile-facebook" placeholder="Facebook">
+                                                                        id="profile-facebook"
+                                                                        placeholder="Facebook">
                                                                     <label for="profile-facebook">Facebook</label>
                                                                 </div>
 
@@ -1742,8 +1977,9 @@
                                                 <div class="icon icon-xs">
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="24"
                                                         height="24" viewBox="0 0 24 24" fill="none"
-                                                        stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                                                        stroke-linejoin="round" class="feather feather-bar-chart-2">
+                                                        stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-bar-chart-2">
                                                         <line x1="18" y1="20" x2="18"
                                                             y2="10"></line>
                                                         <line x1="12" y1="20" x2="12"
@@ -1989,12 +2225,17 @@
             <!-- Chat -->
 
             <!-- Chat: Info -->
-            
-            <div class="offcanvas offcanvas-end offcanvas-aside" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvas-more">
+
+            <div class="offcanvas offcanvas-end offcanvas-aside" data-bs-scroll="true" data-bs-backdrop="false"
+                tabindex="-1" id="offcanvas-more">
                 <!-- Offcanvas Header -->
                 <div class="offcanvas-header py-4 py-lg-7 border-bottom">
                     <a class="icon icon-lg text-muted" href="#" data-bs-dismiss="offcanvas">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-left">
+                            <polyline points="15 18 9 12 15 6"></polyline>
+                        </svg>
                     </a>
 
                     <div class="visibility-xl-invisible overflow-hidden text-center">
@@ -2004,8 +2245,16 @@
 
                     <!-- Dropdown -->
                     <div class="dropdown">
-                        <a class="icon icon-lg text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                        <a class="icon icon-lg text-muted" href="#" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round"
+                                class="feather feather-more-vertical">
+                                <circle cx="12" cy="12" r="1"></circle>
+                                <circle cx="12" cy="5" r="1"></circle>
+                                <circle cx="12" cy="19" r="1"></circle>
+                            </svg>
                         </a>
 
                         <ul class="dropdown-menu">
@@ -2013,7 +2262,13 @@
                                 <a href="#" class="dropdown-item d-flex align-items-center">
                                     Edit
                                     <div class="icon ms-auto">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-edit-3"><path d="M12 20h9"></path><path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-edit-3">
+                                            <path d="M12 20h9"></path>
+                                            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"></path>
+                                        </svg>
                                     </div>
                                 </a>
                             </li>
@@ -2021,7 +2276,13 @@
                                 <a href="#" class="dropdown-item d-flex align-items-center">
                                     Mute
                                     <div class="icon ms-auto">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-bell">
+                                            <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                            <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                        </svg>
                                     </div>
                                 </a>
                             </li>
@@ -2032,7 +2293,15 @@
                                 <a href="#" class="dropdown-item d-flex align-items-center text-danger">
                                     Leave
                                     <div class="icon ms-auto">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-log-out"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-log-out">
+                                            <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                                            <polyline points="16 17 21 12 16 7"></polyline>
+                                            <line x1="21" y1="12" x2="9" y2="12">
+                                            </line>
+                                        </svg>
                                     </div>
                                 </a>
                             </li>
@@ -2048,17 +2317,28 @@
                         <div class="row gy-6">
                             <div class="col-12">
                                 <div class="avatar avatar-xl mx-auto">
-                                    <img src="assets/img/avatars/2.jpg" alt="#" class="avatar-img">
+                                    <img src="{{ asset('assets/img/avatars/2.jpg') }}" alt="#"
+                                        class="avatar-img">
 
-                                    <a href="#" class="badge badge-lg badge-circle bg-primary text-white border-outline position-absolute bottom-0 end-0">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-plus"><line x1="12" y1="5" x2="12" y2="19"></line><line x1="5" y1="12" x2="19" y2="12"></line></svg>
+                                    <a href="#"
+                                        class="badge badge-lg badge-circle bg-primary text-white border-outline position-absolute bottom-0 end-0">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                                            viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                                            class="feather feather-plus">
+                                            <line x1="12" y1="5" x2="12" y2="19">
+                                            </line>
+                                            <line x1="5" y1="12" x2="19" y2="12">
+                                            </line>
+                                        </svg>
                                     </a>
                                 </div>
                             </div>
 
                             <div class="col-12">
                                 <h4>Ollie Chandler</h4>
-                                <p>Bootstrap is an open source <br> toolkit for developing web with <br> HTML, CSS, and JS.</p>
+                                <p>Bootstrap is an open source <br> toolkit for developing web with <br> HTML, CSS, and
+                                    JS.</p>
                             </div>
                         </div>
                     </div>
@@ -2067,19 +2347,22 @@
                     <!-- Tabs -->
                     <ul class="nav nav-pills nav-justified" role="tablist">
                         <li class="nav-item">
-                            <a class="nav-link active" data-bs-toggle="pill" href="#offcanvas-tab-profile" role="tab" aria-controls="offcanvas-tab-profile" aria-selected="true">
+                            <a class="nav-link active" data-bs-toggle="pill" href="#offcanvas-tab-profile"
+                                role="tab" aria-controls="offcanvas-tab-profile" aria-selected="true">
                                 Profile
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="pill" href="#offcanvas-tab-media" role="tab" aria-controls="offcanvas-tab-media" aria-selected="true">
+                            <a class="nav-link" data-bs-toggle="pill" href="#offcanvas-tab-media" role="tab"
+                                aria-controls="offcanvas-tab-media" aria-selected="true">
                                 Media
                             </a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link" data-bs-toggle="pill" href="#offcanvas-tab-files" role="tab" aria-controls="offcanvas-tab-files" aria-selected="false">
+                            <a class="nav-link" data-bs-toggle="pill" href="#offcanvas-tab-files" role="tab"
+                                aria-controls="offcanvas-tab-files" aria-selected="false">
                                 Files
                             </a>
                         </li>
@@ -2100,7 +2383,14 @@
 
                                         <div class="col-auto">
                                             <div class="btn btn-sm btn-icon btn-dark">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call"><path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" class="feather feather-phone-call">
+                                                    <path
+                                                        d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                                    </path>
+                                                </svg>
                                             </div>
                                         </div>
                                     </div>
@@ -2115,7 +2405,17 @@
 
                                         <div class="col-auto">
                                             <div class="btn btn-sm btn-icon btn-dark">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" class="feather feather-globe">
+                                                    <circle cx="12" cy="12" r="10"></circle>
+                                                    <line x1="2" y1="12" x2="22"
+                                                        y2="12"></line>
+                                                    <path
+                                                        d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                                    </path>
+                                                </svg>
                                             </div>
                                         </div>
                                     </div>
@@ -2130,7 +2430,15 @@
 
                                         <div class="col-auto">
                                             <div class="btn btn-sm btn-icon btn-dark">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                    height="24" viewBox="0 0 24 24" fill="none"
+                                                    stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                                    stroke-linejoin="round" class="feather feather-mail">
+                                                    <path
+                                                        d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
+                                                    </path>
+                                                    <polyline points="22,6 12,13 2,6"></polyline>
+                                                </svg>
                                             </div>
                                         </div>
                                     </div>
@@ -2147,8 +2455,10 @@
 
                                         <div class="col-auto">
                                             <div class="form-check form-switch">
-                                                <input class="form-check-input" type="checkbox" id="accordion-security-check-5">
-                                                <label class="form-check-label" for="accordion-security-check-5"></label>
+                                                <input class="form-check-input" type="checkbox"
+                                                    id="accordion-security-check-5">
+                                                <label class="form-check-label"
+                                                    for="accordion-security-check-5"></label>
                                             </div>
                                         </div>
                                     </div>
@@ -2171,56 +2481,74 @@
                         <div class="tab-pane fade" id="offcanvas-tab-media" role="tabpanel">
                             <div class="row row-cols-3 g-3 py-6">
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-1.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/1.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-1.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/1.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-2.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/2.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-2.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/2.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-3.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/3.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-3.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/3.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-1.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/4.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-1.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/4.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-2.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/5.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-2.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/5.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-3.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/6.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-3.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/6.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-1.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/7.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-1.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/7.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-2.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/8.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-2.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/8.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
 
                                 <div class="col">
-                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview" data-theme-img-url="assets/img/chat/media-3.jpg">
-                                        <img class="img-fluid rounded" src="assets/img/chat/9.jpg" alt="">
+                                    <a href="#" data-bs-toggle="modal" data-bs-target="#modal-media-preview"
+                                        data-theme-img-url="{{ asset('assets/img/chat/media-3.jpg') }}">
+                                        <img class="img-fluid rounded" src="{{ asset('assets/img/chat/9.jpg') }}"
+                                            alt="">
                                     </a>
                                 </div>
                             </div>
@@ -2238,12 +2566,27 @@
                                         <div class="col-auto">
                                             <div class="avatar-group">
                                                 <a href="#" class="avatar avatar-sm">
-                                                    <img src="assets/img/avatars/2.jpg" class="avatar-img" alt="#">
+                                                    <img src="{{ asset('assets/img/avatars/2.jpg') }}"
+                                                        class="avatar-img" alt="#">
                                                 </a>
 
                                                 <a href="#" class="avatar avatar-sm">
                                                     <span class="avatar-text bg-primary">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="feather feather-file-text">
+                                                            <path
+                                                                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">
+                                                            </path>
+                                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                                            <line x1="16" y1="13" x2="8"
+                                                                y2="13"></line>
+                                                            <line x1="16" y1="17" x2="8"
+                                                                y2="17"></line>
+                                                            <polyline points="10 9 9 9 8 9"></polyline>
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -2270,33 +2613,88 @@
                                         <!-- Dropdown -->
                                         <div class="col-auto">
                                             <div class="dropdown">
-                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                                                <a class="icon text-muted" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-more-vertical">
+                                                        <circle cx="12" cy="12" r="1"></circle>
+                                                        <circle cx="12" cy="5" r="1"></circle>
+                                                        <circle cx="12" cy="19" r="1"></circle>
+                                                    </svg>
                                                 </a>
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Download
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-download">
+                                                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+                                                                    </path>
+                                                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                                                    <line x1="12" y1="15"
+                                                                        x2="12" y2="3"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Share
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-share-2">
+                                                                    <circle cx="18" cy="5" r="3">
+                                                                    </circle>
+                                                                    <circle cx="6" cy="12" r="3">
+                                                                    </circle>
+                                                                    <circle cx="18" cy="19" r="3">
+                                                                    </circle>
+                                                                    <line x1="8.59" y1="13.51"
+                                                                        x2="15.42" y2="17.49"></line>
+                                                                    <line x1="15.41" y1="6.51"
+                                                                        x2="8.59" y2="10.49"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li><hr class="dropdown-divider"></li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item d-flex align-items-center text-danger"
+                                                            href="#">
                                                             <span class="me-auto">Delete</span>
                                                             <div class="icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-trash-2">
+                                                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                                                    <path
+                                                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                                    </path>
+                                                                    <line x1="10" y1="11"
+                                                                        x2="10" y2="17"></line>
+                                                                    <line x1="14" y1="11"
+                                                                        x2="14" y2="17"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
@@ -2315,12 +2713,35 @@
                                         <div class="col-auto">
                                             <div class="avatar-group">
                                                 <a href="#" class="avatar avatar-sm">
-                                                    <img class="avatar-img" src="assets/img/avatars/1.jpg" alt="#">
+                                                    <img class="avatar-img"
+                                                        src="{{ asset('assets/img/avatars/1.jpg') }}"
+                                                        alt="#">
                                                 </a>
 
                                                 <a href="#" class="avatar avatar-sm">
                                                     <span class="avatar-text bg-warning">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-film"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="feather feather-film">
+                                                            <rect x="2" y="2" width="20" height="20"
+                                                                rx="2.18" ry="2.18"></rect>
+                                                            <line x1="7" y1="2" x2="7"
+                                                                y2="22"></line>
+                                                            <line x1="17" y1="2" x2="17"
+                                                                y2="22"></line>
+                                                            <line x1="2" y1="12" x2="22"
+                                                                y2="12"></line>
+                                                            <line x1="2" y1="7" x2="7"
+                                                                y2="7"></line>
+                                                            <line x1="2" y1="17" x2="7"
+                                                                y2="17"></line>
+                                                            <line x1="17" y1="17" x2="22"
+                                                                y2="17"></line>
+                                                            <line x1="17" y1="7" x2="22"
+                                                                y2="7"></line>
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -2347,33 +2768,88 @@
                                         <!-- Dropdown -->
                                         <div class="col-auto">
                                             <div class="dropdown">
-                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                                                <a class="icon text-muted" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-more-vertical">
+                                                        <circle cx="12" cy="12" r="1"></circle>
+                                                        <circle cx="12" cy="5" r="1"></circle>
+                                                        <circle cx="12" cy="19" r="1"></circle>
+                                                    </svg>
                                                 </a>
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Download
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-download">
+                                                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+                                                                    </path>
+                                                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                                                    <line x1="12" y1="15"
+                                                                        x2="12" y2="3"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Share
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-share-2">
+                                                                    <circle cx="18" cy="5" r="3">
+                                                                    </circle>
+                                                                    <circle cx="6" cy="12" r="3">
+                                                                    </circle>
+                                                                    <circle cx="18" cy="19" r="3">
+                                                                    </circle>
+                                                                    <line x1="8.59" y1="13.51"
+                                                                        x2="15.42" y2="17.49"></line>
+                                                                    <line x1="15.41" y1="6.51"
+                                                                        x2="8.59" y2="10.49"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li><hr class="dropdown-divider"></li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item d-flex align-items-center text-danger"
+                                                            href="#">
                                                             <span class="me-auto">Delete</span>
                                                             <div class="icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-trash-2">
+                                                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                                                    <path
+                                                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                                    </path>
+                                                                    <line x1="10" y1="11"
+                                                                        x2="10" y2="17"></line>
+                                                                    <line x1="14" y1="11"
+                                                                        x2="14" y2="17"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
@@ -2392,12 +2868,28 @@
                                         <div class="col-auto">
                                             <div class="avatar-group">
                                                 <a href="#" class="avatar avatar-sm">
-                                                    <img class="avatar-img" src="assets/img/avatars/2.jpg" alt="#">
+                                                    <img class="avatar-img"
+                                                        src="{{ asset('assets/img/avatars/2.jpg') }}"
+                                                        alt="#">
                                                 </a>
 
                                                 <a href="#" class="avatar avatar-sm">
                                                     <span class="avatar-text bg-primary">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="feather feather-file-text">
+                                                            <path
+                                                                d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z">
+                                                            </path>
+                                                            <polyline points="14 2 14 8 20 8"></polyline>
+                                                            <line x1="16" y1="13" x2="8"
+                                                                y2="13"></line>
+                                                            <line x1="16" y1="17" x2="8"
+                                                                y2="17"></line>
+                                                            <polyline points="10 9 9 9 8 9"></polyline>
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -2424,33 +2916,88 @@
                                         <!-- Dropdown -->
                                         <div class="col-auto">
                                             <div class="dropdown">
-                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                                                <a class="icon text-muted" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-more-vertical">
+                                                        <circle cx="12" cy="12" r="1"></circle>
+                                                        <circle cx="12" cy="5" r="1"></circle>
+                                                        <circle cx="12" cy="19" r="1"></circle>
+                                                    </svg>
                                                 </a>
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Download
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-download">
+                                                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+                                                                    </path>
+                                                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                                                    <line x1="12" y1="15"
+                                                                        x2="12" y2="3"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Share
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-share-2">
+                                                                    <circle cx="18" cy="5" r="3">
+                                                                    </circle>
+                                                                    <circle cx="6" cy="12" r="3">
+                                                                    </circle>
+                                                                    <circle cx="18" cy="19" r="3">
+                                                                    </circle>
+                                                                    <line x1="8.59" y1="13.51"
+                                                                        x2="15.42" y2="17.49"></line>
+                                                                    <line x1="15.41" y1="6.51"
+                                                                        x2="8.59" y2="10.49"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li><hr class="dropdown-divider"></li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item d-flex align-items-center text-danger"
+                                                            href="#">
                                                             <span class="me-auto">Delete</span>
                                                             <div class="icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-trash-2">
+                                                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                                                    <path
+                                                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                                    </path>
+                                                                    <line x1="10" y1="11"
+                                                                        x2="10" y2="17"></line>
+                                                                    <line x1="14" y1="11"
+                                                                        x2="14" y2="17"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
@@ -2469,12 +3016,35 @@
                                         <div class="col-auto">
                                             <div class="avatar-group">
                                                 <a href="#" class="avatar avatar-sm">
-                                                    <img class="avatar-img" src="assets/img/avatars/1.jpg" alt="#">
+                                                    <img class="avatar-img"
+                                                        src="{{ asset('assets/img/avatars/1.jpg') }}"
+                                                        alt="#">
                                                 </a>
 
                                                 <a href="#" class="avatar avatar-sm">
                                                     <span class="avatar-text bg-warning">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-film"><rect x="2" y="2" width="20" height="20" rx="2.18" ry="2.18"></rect><line x1="7" y1="2" x2="7" y2="22"></line><line x1="17" y1="2" x2="17" y2="22"></line><line x1="2" y1="12" x2="22" y2="12"></line><line x1="2" y1="7" x2="7" y2="7"></line><line x1="2" y1="17" x2="7" y2="17"></line><line x1="17" y1="17" x2="22" y2="17"></line><line x1="17" y1="7" x2="22" y2="7"></line></svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="feather feather-film">
+                                                            <rect x="2" y="2" width="20" height="20"
+                                                                rx="2.18" ry="2.18"></rect>
+                                                            <line x1="7" y1="2" x2="7"
+                                                                y2="22"></line>
+                                                            <line x1="17" y1="2" x2="17"
+                                                                y2="22"></line>
+                                                            <line x1="2" y1="12" x2="22"
+                                                                y2="12"></line>
+                                                            <line x1="2" y1="7" x2="7"
+                                                                y2="7"></line>
+                                                            <line x1="2" y1="17" x2="7"
+                                                                y2="17"></line>
+                                                            <line x1="17" y1="17" x2="22"
+                                                                y2="17"></line>
+                                                            <line x1="17" y1="7" x2="22"
+                                                                y2="7"></line>
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -2501,33 +3071,88 @@
                                         <!-- Dropdown -->
                                         <div class="col-auto">
                                             <div class="dropdown">
-                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                                                <a class="icon text-muted" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-more-vertical">
+                                                        <circle cx="12" cy="12" r="1"></circle>
+                                                        <circle cx="12" cy="5" r="1"></circle>
+                                                        <circle cx="12" cy="19" r="1"></circle>
+                                                    </svg>
                                                 </a>
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Download
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-download">
+                                                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+                                                                    </path>
+                                                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                                                    <line x1="12" y1="15"
+                                                                        x2="12" y2="3"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Share
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-share-2">
+                                                                    <circle cx="18" cy="5" r="3">
+                                                                    </circle>
+                                                                    <circle cx="6" cy="12" r="3">
+                                                                    </circle>
+                                                                    <circle cx="18" cy="19" r="3">
+                                                                    </circle>
+                                                                    <line x1="8.59" y1="13.51"
+                                                                        x2="15.42" y2="17.49"></line>
+                                                                    <line x1="15.41" y1="6.51"
+                                                                        x2="8.59" y2="10.49"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li><hr class="dropdown-divider"></li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item d-flex align-items-center text-danger"
+                                                            href="#">
                                                             <span class="me-auto">Delete</span>
                                                             <div class="icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-trash-2">
+                                                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                                                    <path
+                                                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                                    </path>
+                                                                    <line x1="10" y1="11"
+                                                                        x2="10" y2="17"></line>
+                                                                    <line x1="14" y1="11"
+                                                                        x2="14" y2="17"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
@@ -2546,12 +3171,23 @@
                                         <div class="col-auto">
                                             <div class="avatar-group">
                                                 <a href="#" class="avatar avatar-sm">
-                                                    <img class="avatar-img" src="assets/img/avatars/2.jpg" alt="#">
+                                                    <img class="avatar-img"
+                                                        src="{{ asset('assets/img/avatars/2.jpg') }}"
+                                                        alt="#">
                                                 </a>
 
                                                 <a href="#" class="avatar avatar-sm">
                                                     <span class="avatar-text bg-success">
-                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-image"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><circle cx="8.5" cy="8.5" r="1.5"></circle><polyline points="21 15 16 10 5 21"></polyline></svg>
+                                                        <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                            height="24" viewBox="0 0 24 24" fill="none"
+                                                            stroke="currentColor" stroke-width="2"
+                                                            stroke-linecap="round" stroke-linejoin="round"
+                                                            class="feather feather-image">
+                                                            <rect x="3" y="3" width="18" height="18"
+                                                                rx="2" ry="2"></rect>
+                                                            <circle cx="8.5" cy="8.5" r="1.5"></circle>
+                                                            <polyline points="21 15 16 10 5 21"></polyline>
+                                                        </svg>
                                                     </span>
                                                 </a>
                                             </div>
@@ -2578,33 +3214,88 @@
                                         <!-- Dropdown -->
                                         <div class="col-auto">
                                             <div class="dropdown">
-                                                <a class="icon text-muted" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-more-vertical"><circle cx="12" cy="12" r="1"></circle><circle cx="12" cy="5" r="1"></circle><circle cx="12" cy="19" r="1"></circle></svg>
+                                                <a class="icon text-muted" href="#" role="button"
+                                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24"
+                                                        height="24" viewBox="0 0 24 24" fill="none"
+                                                        stroke="currentColor" stroke-width="2"
+                                                        stroke-linecap="round" stroke-linejoin="round"
+                                                        class="feather feather-more-vertical">
+                                                        <circle cx="12" cy="12" r="1"></circle>
+                                                        <circle cx="12" cy="5" r="1"></circle>
+                                                        <circle cx="12" cy="19" r="1"></circle>
+                                                    </svg>
                                                 </a>
 
                                                 <ul class="dropdown-menu">
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Download
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-download"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-download">
+                                                                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4">
+                                                                    </path>
+                                                                    <polyline points="7 10 12 15 17 10"></polyline>
+                                                                    <line x1="12" y1="15"
+                                                                        x2="12" y2="3"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center" href="#">
+                                                        <a class="dropdown-item d-flex align-items-center"
+                                                            href="#">
                                                             Share
                                                             <div class="icon ms-auto">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-share-2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-share-2">
+                                                                    <circle cx="18" cy="5" r="3">
+                                                                    </circle>
+                                                                    <circle cx="6" cy="12" r="3">
+                                                                    </circle>
+                                                                    <circle cx="18" cy="19" r="3">
+                                                                    </circle>
+                                                                    <line x1="8.59" y1="13.51"
+                                                                        x2="15.42" y2="17.49"></line>
+                                                                    <line x1="15.41" y1="6.51"
+                                                                        x2="8.59" y2="10.49"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
-                                                    <li><hr class="dropdown-divider"></li>
                                                     <li>
-                                                        <a class="dropdown-item d-flex align-items-center text-danger" href="#">
+                                                        <hr class="dropdown-divider">
+                                                    </li>
+                                                    <li>
+                                                        <a class="dropdown-item d-flex align-items-center text-danger"
+                                                            href="#">
                                                             <span class="me-auto">Delete</span>
                                                             <div class="icon">
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-trash-2"><polyline points="3 6 5 6 21 6"></polyline><path d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"></path><line x1="10" y1="11" x2="10" y2="17"></line><line x1="14" y1="11" x2="14" y2="17"></line></svg>
+                                                                <svg xmlns="http://www.w3.org/2000/svg"
+                                                                    width="24" height="24"
+                                                                    viewBox="0 0 24 24" fill="none"
+                                                                    stroke="currentColor" stroke-width="2"
+                                                                    stroke-linecap="round" stroke-linejoin="round"
+                                                                    class="feather feather-trash-2">
+                                                                    <polyline points="3 6 5 6 21 6"></polyline>
+                                                                    <path
+                                                                        d="M19 6v14a2 2 0 0 1-2 2H7a2 2 0 0 1-2-2V6m3 0V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2">
+                                                                    </path>
+                                                                    <line x1="10" y1="11"
+                                                                        x2="10" y2="17"></line>
+                                                                    <line x1="14" y1="11"
+                                                                        x2="14" y2="17"></line>
+                                                                </svg>
                                                             </div>
                                                         </a>
                                                     </li>
@@ -2622,7 +3313,7 @@
                 </div>
                 <!-- Offcanvas Body -->
             </div>
-            
+
         </div>
         <!-- Layout -->
 
@@ -2778,7 +3469,8 @@
 
                             <div class="profile-body">
                                 <div class="avatar avatar-xl">
-                                    <img class="avatar-img" src="./assets/img/avatars/1.jpg" alt="#">
+                                    <img class="avatar-img" src="{{ asset('assets/img/avatars/1.jpg') }}"
+                                        alt="#">
                                 </div>
 
                                 <h4 class="mb-1">William Wright</h4>
@@ -2950,7 +3642,8 @@
 
                             <div class="profile-body">
                                 <div class="avatar avatar-xl">
-                                    <img class="avatar-img" src="./assets/img/avatars/9.jpg" alt="#">
+                                    <img class="avatar-img" src="{{ asset('assets/img/avatars/9.jpg') }}"
+                                        alt="#">
 
                                     <a href="#"
                                         class="badge badge-lg badge-circle bg-primary text-white border-outline position-absolute bottom-0 end-0">
@@ -3219,9 +3912,9 @@
     <script src="{{ asset('assets/js/vendor.js') }}"></script>
     <script src="{{ asset('assets/js/template.js') }}"></script>
 
-    
-        <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
-        <script>
+
+    <script src="https://js.pusher.com/7.0/pusher.min.js"></script>
+    <script>
         // Enable pusher logging - don't include this in production
         Pusher.logToConsole = true;
 
