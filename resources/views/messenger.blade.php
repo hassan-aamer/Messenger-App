@@ -778,7 +778,7 @@
                                     </div>
 
                                     <!-- List -->
-                                    {{-- <div class="card-list">
+                                    <div class="card-list">
                                         @php
                                             $last_letter = '';
                                         @endphp
@@ -857,7 +857,7 @@
                                             </div>
                                             <!-- Card -->
                                         @endforeach
-                                    </div> --}}
+                                    </div>
 
                                 </div>
                             </div>
