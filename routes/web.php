@@ -15,8 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Auth.login');
-});
+    return view('messenger');
+})->middleware('auth');
 
 Route::get('/dashboard', function () {
     return view('dashboard');
