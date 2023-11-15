@@ -13,7 +13,9 @@ class MessengerController extends Controller
     {
         $user = Auth::user();
         $friends = User::where('id', '<>', Auth::id())->orderBy('name')->paginate();
-        $chats = $user->conversations;
+        $chats = $user->conversations()->with(['lastMessage0','participants'=>function($builder)use($user){
+            $builder->where('id', '<>' , $user->id);
+        }])->get();
 
 
         return view('messenger', [

@@ -865,13 +865,33 @@
                     </div>
 
                     <!-- Chats -->
-                    <div class="tab-pane fade h-100 show active" id="tab-content-chats" role="tabpanel">
-                        <div class="d-flex flex-column h-100 position-relative">
-                            <div class="hide-scrollbar">
-                                <chat-list />
-                            </div>
-                        </div>
+                    <div class="card-list" id="tab-content-chats">
+                        @foreach ($chats as $chat)
+                            <a href="chat-direct.html" class="card border-0 text-reset">
+                                <div class="card-body">
+                                    <div class="row gx-5">
+                                        <div class="col-auto">
+                                            <div class="avatar avatar-online">
+                                                <span class="avatar-text">{{ strtoupper(substr($chat->participants[0]->name, 0, 1)) }}</span>
+                                            </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="d-flex align-items-center mb-3">
+                                                <h5 class="me-auto mb-0">{{ $chat->participants[0]->name }}</h5>
+                                                <span class="text-muted extra-small ms-2">{{ $chat->lastMessage->created_at->diffForHumans() }}</span>
+                                            </div>
+                                            <div class="d-flex align-items-center">
+                                                <div class="line-clamp me-auto">
+                                                    {{ Str::words($chat->lastMessage->body, 20) }}
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        @endforeach
                     </div>
+                    
                     <!-- Notifications - Notices -->
                     <div class="tab-pane fade h-100" id="tab-content-notifications" role="tabpanel">
                         <div class="d-flex flex-column h-100">
